@@ -4,7 +4,7 @@ body {
     align-items: center;
     min-height: 100vh;
 }
-.wave-wrapper {
+wave-wrapper {
     position: relative;
     height: 24rem;
     width: 24rem;
@@ -12,7 +12,7 @@ body {
     border-radius: 50%;
     background-color: #eff1f6;
 }
-.wave {
+wave {
     position: absolute;
     top: 70%;
     left: -50%;
@@ -24,15 +24,15 @@ body {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
-.wave.one {
+wave.one {
     animation-duration: 7000ms;
     opacity: 0.4;
 }
-.wave.two {
+wave-two {
     background-color: #70c7cb;
     animation-duration: 9000ms;
 }
-.wave.three {
+wave.three {
     animation-duration: 12000ms;
 }
 @keyframes waves {
